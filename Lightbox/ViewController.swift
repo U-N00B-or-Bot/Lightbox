@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     @IBAction func pressBtn() {
         if redLight.alpha == 0.25 && yellowLight.alpha == 0.25 && greenLight.alpha == 0.25 {
             redLight.alpha = 1
-            btn.setTitle("NEXT", for: .normal)
+            btn.setTitle("NEXT!", for: .normal)
         } else if redLight.alpha == 1 {
             redLight.alpha = 0.25
             yellowLight.alpha = 1
