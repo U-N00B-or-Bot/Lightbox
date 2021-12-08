@@ -47,6 +47,9 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="pressBtn" destination="BYZ-38-t0r" eventType="touchUpInside" id="LgI-UE-gNC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -69,10 +72,16 @@
                             <constraint firstItem="Vpt-Uv-Nl3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nLc-J2-bPw"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btn" destination="Fig-9a-OQC" id="9ba-Ay-bjW"/>
+                        <outlet property="greenLight" destination="Vpt-Uv-Nl3" id="gtq-8Z-kI5"/>
+                        <outlet property="redLight" destination="J8Q-be-lRh" id="W1n-0o-d0h"/>
+                        <outlet property="yellowLight" destination="6zH-Ek-ykT" id="VLg-vJ-dwi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="67.633928571428569"/>
+            <point key="canvasLocation" x="-103" y="399"/>
         </scene>
     </scenes>
     <resources>
